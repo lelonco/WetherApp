@@ -11,6 +11,22 @@
 		C489EEFB2AB5CDD600D58898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EEFA2AB5CDD600D58898 /* ContentView.swift */; };
 		C489EEFD2AB5CDD800D58898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C489EEFC2AB5CDD800D58898 /* Assets.xcassets */; };
 		C489EF002AB5CDD800D58898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C489EEFF2AB5CDD800D58898 /* Preview Assets.xcassets */; };
+		C489EF082AB5CEB000D58898 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF072AB5CEB000D58898 /* LocationManager.swift */; };
+		C489EF0B2AB5D0AC00D58898 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF0A2AB5D0AC00D58898 /* WelcomeView.swift */; };
+		C489EF0D2AB5D26C00D58898 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF0C2AB5D26C00D58898 /* LoadingView.swift */; };
+		C489EF0F2AB5D50100D58898 /* WetherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF0E2AB5D50100D58898 /* WetherManager.swift */; };
+		C489EF112AB5DC8900D58898 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF102AB5DC8900D58898 /* NetworkManager.swift */; };
+		C489EF132AB5E84100D58898 /* WetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF122AB5E84100D58898 /* WetherView.swift */; };
+		C489EF152AB5F73200D58898 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF142AB5F73200D58898 /* TitleView.swift */; };
+		C489EF172AB5F74E00D58898 /* CompactWetherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF162AB5F74E00D58898 /* CompactWetherCard.swift */; };
+		C489EF192AB5F76500D58898 /* WetherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF182AB5F76500D58898 /* WetherItem.swift */; };
+		C489EF1B2AB5F77500D58898 /* WetherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF1A2AB5F77500D58898 /* WetherDetails.swift */; };
+		C489EF1E2AB5F7A100D58898 /* WetherDetailsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF1D2AB5F7A100D58898 /* WetherDetailsCard.swift */; };
+		C489EF202AB5F7B200D58898 /* CompactWetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF1F2AB5F7B200D58898 /* CompactWetherView.swift */; };
+		C489EF222AB623C800D58898 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF212AB623C800D58898 /* WeatherViewModel.swift */; };
+		C489EF242AB6278700D58898 /* wether.json in Resources */ = {isa = PBXBuildFile; fileRef = C489EF232AB6278700D58898 /* wether.json */; };
+		C489EF262AB628B300D58898 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF252AB628B300D58898 /* Extensions.swift */; };
+		C489EF282AB629B300D58898 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EF272AB629B300D58898 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		C489EEFA2AB5CDD600D58898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C489EEFC2AB5CDD800D58898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C489EEFF2AB5CDD800D58898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C489EF072AB5CEB000D58898 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C489EF0A2AB5D0AC00D58898 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C489EF0C2AB5D26C00D58898 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C489EF0E2AB5D50100D58898 /* WetherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherManager.swift; sourceTree = "<group>"; };
+		C489EF102AB5DC8900D58898 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C489EF122AB5E84100D58898 /* WetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherView.swift; sourceTree = "<group>"; };
+		C489EF142AB5F73200D58898 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		C489EF162AB5F74E00D58898 /* CompactWetherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactWetherCard.swift; sourceTree = "<group>"; };
+		C489EF182AB5F76500D58898 /* WetherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherItem.swift; sourceTree = "<group>"; };
+		C489EF1A2AB5F77500D58898 /* WetherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherDetails.swift; sourceTree = "<group>"; };
+		C489EF1D2AB5F7A100D58898 /* WetherDetailsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherDetailsCard.swift; sourceTree = "<group>"; };
+		C489EF1F2AB5F7B200D58898 /* CompactWetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactWetherView.swift; sourceTree = "<group>"; };
+		C489EF212AB623C800D58898 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		C489EF232AB6278700D58898 /* wether.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wether.json; sourceTree = "<group>"; };
+		C489EF252AB628B300D58898 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C489EF272AB629B300D58898 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +83,11 @@
 		C489EEF72AB5CDD600D58898 /* WetherApp */ = {
 			isa = PBXGroup;
 			children = (
+				C489EF252AB628B300D58898 /* Extensions.swift */,
+				C489EF092AB5D07B00D58898 /* Views */,
+				C489EF062AB5CEA500D58898 /* Managers */,
 				C489EEF82AB5CDD600D58898 /* WetherAppApp.swift */,
-				C489EEFA2AB5CDD600D58898 /* ContentView.swift */,
+				C489EF212AB623C800D58898 /* WeatherViewModel.swift */,
 				C489EEFC2AB5CDD800D58898 /* Assets.xcassets */,
 				C489EEFE2AB5CDD800D58898 /* Preview Content */,
 			);
@@ -63,8 +98,45 @@
 			isa = PBXGroup;
 			children = (
 				C489EEFF2AB5CDD800D58898 /* Preview Assets.xcassets */,
+				C489EF232AB6278700D58898 /* wether.json */,
+				C489EF272AB629B300D58898 /* ModelData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C489EF062AB5CEA500D58898 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C489EF072AB5CEB000D58898 /* LocationManager.swift */,
+				C489EF0E2AB5D50100D58898 /* WetherManager.swift */,
+				C489EF102AB5DC8900D58898 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C489EF092AB5D07B00D58898 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C489EEFA2AB5CDD600D58898 /* ContentView.swift */,
+				C489EF0A2AB5D0AC00D58898 /* WelcomeView.swift */,
+				C489EF1C2AB5F78800D58898 /* Weather */,
+				C489EF0C2AB5D26C00D58898 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C489EF1C2AB5F78800D58898 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				C489EF142AB5F73200D58898 /* TitleView.swift */,
+				C489EF122AB5E84100D58898 /* WetherView.swift */,
+				C489EF182AB5F76500D58898 /* WetherItem.swift */,
+				C489EF162AB5F74E00D58898 /* CompactWetherCard.swift */,
+				C489EF1A2AB5F77500D58898 /* WetherDetails.swift */,
+				C489EF1D2AB5F7A100D58898 /* WetherDetailsCard.swift */,
+				C489EF1F2AB5F7B200D58898 /* CompactWetherView.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +199,7 @@
 			files = (
 				C489EF002AB5CDD800D58898 /* Preview Assets.xcassets in Resources */,
 				C489EEFD2AB5CDD800D58898 /* Assets.xcassets in Resources */,
+				C489EF242AB6278700D58898 /* wether.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +210,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C489EF282AB629B300D58898 /* ModelData.swift in Sources */,
+				C489EF192AB5F76500D58898 /* WetherItem.swift in Sources */,
+				C489EF0F2AB5D50100D58898 /* WetherManager.swift in Sources */,
 				C489EEFB2AB5CDD600D58898 /* ContentView.swift in Sources */,
+				C489EF262AB628B300D58898 /* Extensions.swift in Sources */,
 				C489EEF92AB5CDD600D58898 /* WetherAppApp.swift in Sources */,
+				C489EF1E2AB5F7A100D58898 /* WetherDetailsCard.swift in Sources */,
+				C489EF112AB5DC8900D58898 /* NetworkManager.swift in Sources */,
+				C489EF082AB5CEB000D58898 /* LocationManager.swift in Sources */,
+				C489EF152AB5F73200D58898 /* TitleView.swift in Sources */,
+				C489EF172AB5F74E00D58898 /* CompactWetherCard.swift in Sources */,
+				C489EF132AB5E84100D58898 /* WetherView.swift in Sources */,
+				C489EF222AB623C800D58898 /* WeatherViewModel.swift in Sources */,
+				C489EF0D2AB5D26C00D58898 /* LoadingView.swift in Sources */,
+				C489EF202AB5F7B200D58898 /* CompactWetherView.swift in Sources */,
+				C489EF0B2AB5D0AC00D58898 /* WelcomeView.swift in Sources */,
+				C489EF1B2AB5F77500D58898 /* WetherDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
